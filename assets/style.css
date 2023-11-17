@@ -1,0 +1,170 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Roboto;
+}
+.aura{
+    background: url(/aura/source/Background\ Image.png), lightgray 0px -14.749px / 104.167% 123.472% no-repeat;
+    flex-shrink: 0;    
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    position: absolute;
+    background-position: center;
+}
+
+    
+.project{
+    position: absolute;
+    right: 112px;
+    top: 41px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 75px; 
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+}
+.contact{
+    position: absolute;
+    right: 344px;
+    top: 41px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 75px; 
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+}
+.au{
+    position: absolute;
+    left: 54px;
+    top: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px; 
+    letter-spacing: 14.4px;
+    text-transform: uppercase;
+    width: 93px;
+    height: 97px;
+    flex-shrink: 0;
+    word-wrap: break-word;
+}
+.box1{
+    width: 270px;
+    height: 350px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.box2{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 472px;
+    height: 480px;
+    flex-shrink: 0;
+    background: var(--Green-Gradient, linear-gradient(133deg, #12C379 0%, rgba(5, 190, 179, 0.48) 100%));
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    padding: 8px;
+   
+}
+input::placeholder{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.button{
+    background: linear-gradient(133deg, #18C8C8 0%, #19E891 100%);
+    box-shadow: 4px 6px 20px 2px #275353;
+    width: 348px;
+    height: 50px;
+    margin-inline: 50px;
+    color: #FFF;
+    border-radius: 10px;
+    border: #12C379;
+}
+ .logo1{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: url(/aura/source/Facebook.png);
+    background-position: center;
+    background-size: cover;
+    bottom: 15%;
+    left: 5%;   
+
+ }
+ .logo2{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: url(/aura/source/Group.png);
+    background-position: center;
+    background-size: cover;
+    bottom: 10%;
+    left: 5%;   
+
+ }
+ .logo3{
+    position: absolute;
+    width: 25px;
+     height: 25px;
+    background: url(/aura/source/Logo\ 1.png);
+    background-position: center;
+    background-size: cover;
+    bottom: 5%;
+    left: 5%;  
+
+ }
+ .scroll{
+    
+    position: absolute;
+    bottom: 15%;
+    right: 2%;
+    display: flex;
+    width: 116px;
+    height: 29px;
+    transform: rotate(-90deg);
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+ }
+ 
